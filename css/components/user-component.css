@@ -11,12 +11,15 @@
 
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .user-component__image {
   width: 60px;
   height: 60px;
-
+  border-radius: 23px;
   margin-right: 10px;
 }
 
@@ -28,7 +31,7 @@
 .user-component__subtitle {
   margin-top: 8px;
   font-size: 15px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .user-component__image--xl {
@@ -45,4 +48,10 @@
 
 .user-component__title--not-bold {
   font-weight: 400;
+}
+
+.user-component__time {
+  color: rgba(0, 0, 0, 0.3);
+  display: block;
+  margin-bottom: 10px;
 }
