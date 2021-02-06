@@ -4,10 +4,11 @@
   padding-top: 40px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 15px;
 }
 
-.screen-header--chats {
-  margin-bottom: 15px;
+.screen-header__friends {
+  margin-bottom: 0px;
 }
 
 .screen-header__title {
@@ -17,4 +18,5 @@
 
 .screen-header__icons span {
   margin-left: 20px;
+  position: relative;
 }

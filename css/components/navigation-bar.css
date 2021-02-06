@@ -26,11 +26,5 @@
 
 .nav__dot {
   position: absolute;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: tomato;
-  justify-content: center;
-  align-items: center;
   left: 35px;
 }
