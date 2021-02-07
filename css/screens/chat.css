@@ -4,7 +4,7 @@
 
 #chat-screen {
   background-color: #abc1d1;
-  height: 11000vh;
+  height: 500vh;
 }
 
 #chat-screen .alt-header {
@@ -146,6 +146,7 @@
   height: 28px;
   display: flex;
   align-items: center;
+  justify-content: center;
   border: none;
   background-color: var(--yellow);
   top: 1.5px;
