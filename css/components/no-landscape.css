@@ -1,0 +1,22 @@
+#no-landscape {
+  display: none;
+}
+
+@media screen and (orientation: landscape) {
+  #no-landscape {
+    position: fixed;
+    z-index: 98;
+    background-color: var(--yellow);
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    top: 0;
+  }
+  body {
+    height: 100%;
+    overflow: hidden;
+  }
+}
