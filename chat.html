@@ -40,17 +40,40 @@
 
     <main class="main-screen main-chat">
       <div class="chat__timestamp">2021년 2월 7일 일요일</div>
+
       <div class="message-row">
         <img src="images/IMG_5674.JPG" />
         <div class="message-row__content">
           <span class="message__author">유정민</span>
           <div class="message__info">
-            <span class="message__bubble">안녕!</span>
+            <span class="message__bubble">배고파</span>
             <span class="message__time">오전 12:46</span>
           </div>
         </div>
       </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">나두</span>
+            <span class="message__time">오전 12:47</span>
+          </div>
+        </div>
+      </div>
     </main>
+
+    <form class="reply">
+      <div class="reply__column">
+        <i class="far fa-plus-square fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메시지를 입력하세요." />
+        <i class="far fa-smile-beam fa-lg"></i>
+        <button>
+          <i class="fas fa-arrow-up fa-lg"></i>
+        </button>
+      </div>
+    </form>
 
     <script
       src="https://kit.fontawesome.com/b2a7e4c847.js"
